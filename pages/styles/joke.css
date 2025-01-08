@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -12,8 +12,8 @@ html {
 }
 
 body {
-    background-color: #1a3553;
-    color: rgb(255, 255, 255);
+    background-color: #2a2d45; 
+    color: #f0f0f0; 
 }
 
 section {
@@ -23,34 +23,43 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    background: linear-gradient(135deg, #6a4c9c, #2e1a47); 
+}
 
-  .container {
+.container {
     width: 90%;
     max-width: 500px;
     margin: 0 auto;
-    background-color: #5f97d6;
-    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); 
     padding: 3rem;
     display: flex;
     flex-direction: column;
-  }
-  .container p {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container p {
     font-size: 2rem;
     font-weight: 300;
     line-height: 3rem;
     text-align: justify;
-  }
+    color: #dcdde1;
+}
 
-  button {
+button {
     margin-top: 4rem;
     width: fit-content;
-    padding: 2rem;
+    padding: 1.5rem 3rem;
     font-size: 2rem;
-    background-color: #15375f;
-    color: antiquewhite;
+    background: linear-gradient(135deg, #9b59b6, #5e2481);
+    color: #ffffff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     align-self: flex-end;
-  }
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #6a4c9c, #3c1762);
+    transform: scale(1.1);
+}
