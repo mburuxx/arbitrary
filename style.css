@@ -1,12 +1,35 @@
-body {
+/* reset defaults */
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure full height for both elements */
+    overflow: hidden; /* Optional: Prevent scrolling if the content is perfectly centered */
+}
+
+.home-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* vertical main axis */
+    justify-content: center; /* align along main axis */
+    align-items: center; /* align along cross axis */
+    background-color: #f0f8ff; /* Light blue background */
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    text-align: center;
-    padding: 20px;
+}
+
+.content-row {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    gap: 10px;
 }
 
 h1 {
     color: #007bff;
+    font-size: 40px;
+}
+
+p {
+    color:black;
+    font-size: 30px;
 }
 
 button, a {
