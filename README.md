@@ -34,7 +34,10 @@ Clone the repository:
 - Explore various categories.
 - Choose an item among the list to fetch random content from the API.
 - Explore as more categories are added over time.
-- Example of a joke:
+
+![Random Content Preview](./assets/img/homepage.png)
+![Random Content Preview](./assets/img/landingpage.png)
+
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, here’s how:
